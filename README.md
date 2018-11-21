@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    compile 'de.cotech:nfc-sweetspot:1.0'
+    compile 'de.cotech:nfc-sweetspot:1.1'
 }
 ```
 
