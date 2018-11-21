@@ -1,0 +1,27 @@
+apply plugin: 'com.android.library'
+apply plugin: 'bintray-release'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        versionCode 1
+        versionName '1.0'
+        minSdkVersion 14
+        targetSdkVersion 28
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+publish {
+    userOrg = 'cotech'
+    groupId = 'de.cotech'
+    artifactId = 'nfc-sweetspot'
+    publishVersion = '1.0'
+    desc = "NFC Sweetspot library provides a activity that shows where your phone's NFC sweetspot is located."
+    website = 'https://github.com/cotechde/nfc-sweetspot'
+}
