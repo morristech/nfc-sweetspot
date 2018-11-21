@@ -34,6 +34,7 @@ dependencies {
 
 # Thanks to
  * The sweetspot data was collected by [McLear Ltd](https://mclear.com) and released under Apache v2
+ * The server to collect this data is [open source](https://github.com/JohnMcLear/sweetspot-server)
  * This library is maintained by [Cotech](https://cotech.de)
 
 # License
