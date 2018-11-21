@@ -18,34 +18,17 @@ dependencies {
 
 ## Usage
 
-1. Define a fullscreen style, similar to this:
-```xml
-
-<style name="Theme.YourApp.AppCompat.Fullscreen" parent="Theme.AppCompat.Light">
-    <item name="android:windowFullscreen">true</item>
-    <item name="android:windowIsFloating">false</item>
-    <item name="windowActionBar">false</item>
-    <item name="windowNoTitle">true</item>
-    <item name="android:colorBackgroundCacheHint">@null</item>
-    <item name="android:windowIsTranslucent">true</item>
-    <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
-    <item name="android:windowContentOverlay">@null</item>
-    <item name="android:windowBackground">@android:color/transparent</item>
-</style>
-```
-
-2. Add ``de.cotech.sweetspot.ShowNfcSweetspotActivity`` to your Manifest, similar to this:
+1. Add ``de.cotech.sweetspot.ShowNfcSweetspotActivity`` to your Manifest, similar to this:
 ```xml
 
 <activity
     android:name="de.cotech.sweetspot.ShowNfcSweetspotActivity"
     android:exported="false"
-    android:theme="@style/Theme.YourApp.AppCompat.Fullscreen"
     />
 
 ```
 
-3. Start activity where needed.
+2. Start activity where needed.
 
 # Thanks to
  * The database has been assembled by [McLear Ltd](https://mclear.com) and released under Apache v2
