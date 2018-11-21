@@ -1,6 +1,6 @@
 # NFC Sweetspot Library
 
-NFC Sweetspot library provides a activity that shows where your phone's NFC sweetspot is located.
+NFC Sweetspot library provides an activity that shows where your phone's NFC sweetspot is located.
 
 ![](https://github.com/cotechde/nfc-sweetspot/raw/master/screenshot.png)
 
@@ -33,8 +33,8 @@ dependencies {
 2. Start activity where needed.
 
 # Thanks to
- * The database has been assembled by [McLear Ltd](https://mclear.com) and released under Apache v2
- * This library has been put together by [Cotech](https://cotech.de)
+ * The sweetspot data was collected by [McLear Ltd](https://mclear.com) and released under Apache v2
+ * This library is maintained by [Cotech](https://cotech.de)
 
 # License
 
