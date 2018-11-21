@@ -2,6 +2,8 @@
 
 NFC Sweetspot library provides a activity that shows where your phone's NFC sweetspot is located.
 
+![](https://github.com/cotechde/nfc-sweetspot/raw/master/screenshot.png)
+
 ## Adding to project
 
 Add this to your build.gradle:
