@@ -30,7 +30,7 @@ dependencies {
 
 ```
 
-2. Start activity where needed.
+2. Check if sweetspot data is available for device with `NfcSweetspotData.hasSweetspotData()`. If it's available, start activity where needed.
 
 Alternatively,
 you can use NfcSweetspotData
