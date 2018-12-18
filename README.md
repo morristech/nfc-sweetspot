@@ -32,6 +32,13 @@ dependencies {
 
 2. Start activity where needed.
 
+Alternatively,
+you can use NfcSweetspotData
+to display the spot
+in an Activity of your own.
+Check out [ShowNfcSweetspotActivity](https://github.com/cotechde/nfc-sweetspot/blob/master/nfc-sweetspot/src/main/java/de/cotech/sweetspot/ShowNfcSweetspotActivity.java)
+for inspiration.
+
 # Thanks to
  * The sweetspot data was collected by [McLear Ltd](https://mclear.com) and released under Apache v2
  * The server to collect this data is [open source](https://github.com/JohnMcLear/sweetspot-server)
